@@ -1,0 +1,68 @@
+.subscribe-by-email-error,.subscribe-by-email-updated {
+	width: 97%;
+	border-width: 1px;
+	border-style: solid;
+	padding: 5px;
+	border-radius: 3px;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.subscribe-by-email-error {
+	background-color: #FFEBE8;
+	border-color: #C00;
+}
+
+.subscribe-by-email-updated {
+	background-color: #DEFFCC;
+	border-color: #60B854;
+}
+
+.subscribe-by-email-field {
+	width: 100%;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 5px 7px !important;
+	margin-bottom: 7px;
+}
+
+.subscribe-by-email-submit {
+	padding: 3px 4px !important;
+	margin-bottom: 10px;
+}
+
+.subscribe-by-email-loader {
+	width: 16px;
+	height: 16px;
+	margin-left:5px;
+
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/*
+     FILE ARCHIVED ON 23:19:19 Feb 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:50:05 Jun 12, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.15
+  exclusion.robots: 0.122
+  exclusion.robots.policy: 0.105
+  esindex: 0.016
+  cdx.remote: 19.096
+  LoadShardBlock: 268.333 (3)
+  PetaboxLoader3.resolve: 348.975 (4)
+  PetaboxLoader3.datanode: 107.518 (5)
+  load_resource: 233.237 (2)
+*/

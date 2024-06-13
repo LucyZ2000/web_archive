@@ -1,0 +1,66 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/**
+ * navigation.js
+ *
+ * Handles toggling the navigation menu for small screens.
+ */
+( function() {
+	var container = document.getElementById( 'site-navigation' ),
+	    button    = container.getElementsByTagName( 'h1' )[0],
+	    menu      = container.getElementsByTagName( 'ul' )[0];
+
+	if ( undefined == button || undefined == menu )
+		return false;
+
+	button.onclick = function() {
+		if ( -1 == menu.className.indexOf( 'nav-menu' ) )
+			menu.className = 'nav-menu';
+
+		if ( -1 != button.className.indexOf( 'toggled-on' ) ) {
+			button.className = button.className.replace( ' toggled-on', '' );
+			menu.className = menu.className.replace( ' toggled-on', '' );
+			container.className = container.className.replace( 'main-small-navigation', 'navigation-main' );
+		} else {
+			button.className += ' toggled-on';
+			menu.className += ' toggled-on';
+			container.className = container.className.replace( 'navigation-main', 'main-small-navigation' );
+		}
+	};
+
+	// Hide menu toggle button if menu is empty.
+	if ( ! menu.childNodes.length )
+		button.style.display = 'none';
+} )();
+
+}
+/*
+     FILE ARCHIVED ON 01:00:56 Mar 15, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:08:23 Jun 11, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.732
+  exclusion.robots: 0.076
+  exclusion.robots.policy: 0.062
+  esindex: 0.013
+  cdx.remote: 16.328
+  LoadShardBlock: 641.547 (3)
+  PetaboxLoader3.datanode: 703.286 (5)
+  PetaboxLoader3.resolve: 164.956 (3)
+  load_resource: 309.808 (2)
+*/

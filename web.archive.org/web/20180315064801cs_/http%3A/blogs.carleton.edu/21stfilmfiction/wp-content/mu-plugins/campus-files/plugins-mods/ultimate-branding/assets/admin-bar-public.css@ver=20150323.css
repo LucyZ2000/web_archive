@@ -1,0 +1,40 @@
+#wp-admin-bar-wdcab_root {
+	display:block !important;
+}
+#wp-admin-bar-wdcab_root > a > img {
+	position: relative;
+	padding: 0;
+	vertical-align: middle;
+	margin: -4px 0 0 6px;
+	float: none;
+	display: inline !important;
+	width:24px;
+	line-height:24px;
+	margin:-4px 0 0 6px;
+}
+
+@media screen and (max-width:782px) {
+	#wp-admin-bar-wdcab_root > a > img {
+		width:28px;
+	}
+}
+/*
+     FILE ARCHIVED ON 00:58:02 Mar 15, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:07:54 Jun 11, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 2.044 (2)
+  exclusion.robots: 0.241 (2)
+  exclusion.robots.policy: 0.21 (2)
+  esindex: 0.032 (2)
+  cdx.remote: 250.174 (2)
+  LoadShardBlock: 268.09 (6)
+  PetaboxLoader3.datanode: 254.655 (8)
+  PetaboxLoader3.resolve: 150.392 (3)
+  load_resource: 217.241 (2)
+*/
